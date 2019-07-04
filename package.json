@@ -1,0 +1,21 @@
+{
+  "name": "ws-json-client",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "author": {
+    "name": "Anton Kosykh",
+    "email": "kelin2025@yandex.ru"
+  },
+  "description": "Simple WS JSON client",
+  "dependencies": {
+    "effector": "^19.1.0"
+  },
+  "scripts": {
+    "build": "parcel build -t node index.js",
+    "dev": "parcel -t node index.js"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.3"
+  }
+}
