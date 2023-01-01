@@ -16,6 +16,6 @@
     "dev": "parcel -t node index.js"
   },
   "devDependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^2.8.2"
   }
 }
